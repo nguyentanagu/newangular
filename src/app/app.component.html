@@ -1,13 +1,44 @@
 <main class="main">
 
-    <header-layout></header-layout>
+    <header-layout/>
+    <div class="wrapper-cart">
+        <h1>Shopping Cart</h1>
+        <div class="group-cart">
+            <div class="header-cart">
+                <div class="col-1">Image</div>
+                <div class="col-2">Name</div>
+                <div class="col-3">Price</div>
+                <div class="col-4">Action</div>
+            </div>
+            <div class="body-cart">
+                <div class="row-cart">
+                    <div class="col-1">
+                        <img width="50px" 
+                        height="auto" 
+                        src="assets/images/labo.jpg" 
+                        alt="Labo"
+                        />
+                    </div>
+                    <div class="col-2">Nuoc hoa Labo</div>
+                    <div class="col-3">20$</div>
+                    <div class="col-4">
+                        <div class="btn-main">
+                            <img width="20px" 
+                        height="auto" 
+                        src="assets/images/bin.png" 
+                        alt="Delete"
+                        />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <h1>CLick is an event</h1>
-    
+
+    </div>
+  
     
 
-    <input type="text" [(ngModel)]="bindingMessage"/>
-    <div>Message: {{ bindingMessage }}</div>
   
 </main>
 
