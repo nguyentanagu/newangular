@@ -1,7 +1,14 @@
 <main class="main">
 
-<header-layout></header-layout>
+    <header-layout></header-layout>
 
+    <h1>CLick is an event</h1>
+    
+    <button (click)="handleClickMe()">{{ nameBtn }}</button>
+<div>Message: {{ clickMessage }}</div>
+
+
+    <input type="text" (keyup)="updateField()">
   
 </main>
 

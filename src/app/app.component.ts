@@ -10,5 +10,14 @@ import { HeaderLayoutComponent } from "./shared/header-layout/header-layout.comp
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'new-angular';
+  nameBtn = 'Click me!';
+  
+  clickMessage = '';
+  
+  handleClickMe(): void {
+    this.clickMessage = 'Click me hello world';
+  }
+  updateField(): void{
+    console.log('Hello world');
+  }
 }
